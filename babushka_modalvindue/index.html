@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babuhska opgave - Magnus Vagn Jensen</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+       <div class="logo">Bistro Babushka</div>
+        <nav>
+        <button class="menu_item" data-kategori="alle">Alle</button>
+        <button class="menu_item" data-kategori="forretter">Forretter</button>
+        <button class="menu_item" data-kategori="hovedretter">Hovedretter</button>
+        <button class="menu_item" data-kategori="desserter">Desserter</button>
+        <button class="menu_item" data-kategori="drikkevarer">Drikkevarer</button>
+        <button class="menu_item" data-kategori="sideorders">Sideorders</button>
+        </nav>
+        <h1></h1>
+
+
+    </header>
+
+    <template class="ret_template">
+
+       <article>
+
+                <img class="billede" src="" alt="">
+
+                <div class="billede_txt">
+                      <h2 class="navn"></h2>
+                    <span class="kortBeskrivelse"></span><br>
+                    Pris: <span class="pris"></span><br>
+                    <span class="oprindelsesregion"></span><br>
+
+                    <span class="langBeskrivelse"></span><br>
+                </div>
+
+
+       </article>
+   </template>
+
+
+
+    <main class="container">
+       <section class="data_container">
+
+       </section>
+
+
+<!--    Modal Vindue   -->
+
+       <div id="modal">
+           <div id="modal_content">
+               <button>X</button>
+                <h2 class="modal_navn">TEST</h2>
+                <img src="" alt="" class="modal_billede">
+               <p class="modal_langbeskrivelse"> </p>
+           </div>
+       </div>
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+<footer>
+
+
+
+</footer>
+
+</html>
